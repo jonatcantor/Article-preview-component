@@ -9,23 +9,27 @@ html(lang="en")
     title Frontend Mentor | Article preview component
 
   body(class="min-vh-100 d-flex flex-column justify-content-between align-items-center")
-    main(class="m-auto w-75 rounded-lg overflow-hidden bg-white")
-      img(src="/images/drawers.jpg", alt="drawers with vase on top", class="w-100 user-select-none")
-      
-      div(class="px-5 pt-4")
-        h1(class="article-title") Shift the overall look and feel by adding these wonderful touches to furniture in your home
+    main(class="my-auto w-75 container rounded-lg overflow-hidden bg-white")
+      div(class="row")
+        div(class="col-md p-0 overflow-hidden bg-image")
+        
+        div(class="col d-flex flex-column justify-content-start")
+          div(class="row p-4")
+            h1(class="article-title") Shift the overall look and feel by adding these wonderful touches to furniture in your home
 
-        p(class="my-3") Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.
+            p(class="my-3") Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.
 
-      div(class="d-flex flex-row justify-content-between align-items-center px-5 py-4")
-        img(src="/images/avatar-michelle.jpg", alt="Michelle photo showing her face", class="avatar-image rounded-circle")
+          div(class="bg-dark row justify-content-between mt-auto")
+            div(class="col-auto p-3")
+              img(src="/images/avatar-michelle.jpg", alt="Michelle photo showing her face", class="avatar-image rounded-circle")
 
-        div(class="ml-2 mr-auto")
-          p(class="my-0 person-name-text") Michelle Appleton
-          p(class="my-0 date-text") 28 Jun 2020
+            div(class="col-auto p-3 mr-auto")
+              p(class="my-0 person-name-text") Michelle Appleton
+              p(class="my-0 date-text") 28 Jun 2020
 
-        button(class="border-0 rounded-circle share-button")
-          i(class="fa fa-share")
+            div(class="col-auto p-3")
+              button(class="border-0 rounded-circle share-button")
+                i(class="fa fa-share")
   
     footer(class="attribution my-2")
       small(class="d-block my-1 text-center") Challenge by 

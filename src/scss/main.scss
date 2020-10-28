@@ -49,3 +49,17 @@ small{
   width: 3rem;
   height: 3rem;
 }
+
+.bg-image{
+  min-height: 250px;
+  background-image: url("/images/drawers.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@include media-breakpoint-up(xl) {
+  .w-75 {
+    width: 50% !important;
+  }
+}
