@@ -9,6 +9,8 @@ $border-radius-lg: 1rem;
 $font-family-base: 'Manrope', sans-serif;
 $h1-font-size: 1.2rem;
 $dark: $title-color;
+$popover-arrow-width: 2rem;
+$popover-arrow-height: 1rem;
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
@@ -91,7 +93,7 @@ small{
     min-width: 250px;
     max-width: 250px;
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 2rem;
     background-color: $title-color;
 
     .arrow{
