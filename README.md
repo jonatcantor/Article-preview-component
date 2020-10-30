@@ -13,12 +13,12 @@ Made with PUG, Sass, Bootstrap and JS.
 git clone https://github.com/jonathan-cantor/Article-preview-component.git
 ```
 
-2. Use [npm](https://nodejs.org/en/) to install the dependencies.
+2. Use [npm](https://nodejs.org/en/) to install the dependencies
 ``` bash
 npm install
 ```
 
-3. Run the project locally.
+3. Run the project locally
 ``` bash
 npm start
 ```
