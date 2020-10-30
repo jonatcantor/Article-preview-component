@@ -23,7 +23,9 @@ function watch(){
 
 function fonts(){
   return gulp.src([
-    './node_modules/font-awesome/fonts/*.ttf'
+    './node_modules/font-awesome/fonts/*.ttf',
+    './node_modules/font-awesome/fonts/*.woff',
+    './node_modules/font-awesome/fonts/*.woff2'
   ])
   .pipe(gulp.dest('./src/fonts'));
 }

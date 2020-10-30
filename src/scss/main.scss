@@ -8,6 +8,7 @@ $link-color: #222222;
 $border-radius-lg: 1rem;
 $font-family-base: 'Manrope', sans-serif;
 $h1-font-size: 1.2rem;
+$dark: $title-color;
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
@@ -17,6 +18,7 @@ html{
 
 body{
   font-weight: 500;
+  min-width: 320px;
 }
 
 small{
@@ -58,8 +60,64 @@ small{
   background-size: cover;
 }
 
+.share-component{
+  .share-text{
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: $date-color;
+  }
+
+  .fa:not(.fa-share){
+    font-size: 2rem;
+  }
+
+  .fa{
+    color: $body-bg;
+  }
+
+  .share-button{
+    background-color: $body-color;
+  }
+}
+
 @include media-breakpoint-up(xl) {
   .w-75 {
     width: 50% !important;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .popover{
+    min-width: 250px;
+    max-width: 250px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: $title-color;
+
+    .arrow{
+      border-color: $title-color;
+    }
+  }
+
+  .bs-popover-top .arrow::after,
+  .bs-popover-auto[x-placement^="top"] .arrow::after {
+      border-top-color: $title-color;
+  }
+
+  .share-text{
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: $body-color;
+  }
+
+  .fa:not(.fa-share){
+    font-size: 2rem;
+    color: $body-bg;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  #share-popover {
+    display: none;
   }
 }

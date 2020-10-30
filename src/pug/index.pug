@@ -13,24 +13,32 @@ html(lang="en")
       div(class="row")
         div(class="col-md p-0 overflow-hidden bg-image")
         
-        div(class="col d-flex flex-column justify-content-start")
-          div(class="row p-4")
-            h1(class="article-title") Shift the overall look and feel by adding these wonderful touches to furniture in your home
+        div(class="col d-flex flex-column justify-content-start mt-3")
+          h1(class="article-title") Shift the overall look and feel by adding these wonderful touches to furniture in your home
 
-            p(class="my-3") Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.
+          p(class="my-3") Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.
 
-          div(class="bg-dark row justify-content-between mt-auto")
-            div(class="col-auto p-3")
+          div(class="row justify-content-between align-items-center flex-nowrap mt-auto" id="person-area")
+            //- person area
+            div(class="col-auto p-3 person-component")
               img(src="/images/avatar-michelle.jpg", alt="Michelle photo showing her face", class="avatar-image rounded-circle")
 
-            div(class="col-auto p-3 mr-auto")
+            div(class="col-auto p-3 mr-auto person-component")
               p(class="my-0 person-name-text") Michelle Appleton
               p(class="my-0 date-text") 28 Jun 2020
 
+            //- share area
+            div(class="col-auto p-3 share-component d-none"): p(class="my-0 share-text") SHARE
+
+            div(class="col-auto p-3 mr-auto share-component d-none")
+              a(href="#" class="mx-2"): i(class="fa fa-facebook-square")
+              a(href="#" class="mx-2"): i(class="fa fa-twitter")
+              a(href="#" class="mx-2"): i(class="fa fa-pinterest")
+
+            //- share button
             div(class="col-auto p-3")
-              button(class="border-0 rounded-circle share-button")
-                i(class="fa fa-share")
-  
+              button(type="button" class="border-0 rounded-circle share-button" id="share-button"): i(class="fa fa-share")
+
     footer(class="attribution my-2")
       small(class="d-block my-1 text-center") Challenge by 
         a(href="https://www.frontendmentor.io?ref=challenge" target="_blank") Frontend Mentor
