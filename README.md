@@ -8,4 +8,4 @@ Made with PUG, Sass, Bootstrap and JS.
 
 ## Image
 
-![Preview Image]()
+![Preview Image](https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/mhpx2ywxeb5ngo45imz7.jpg)
