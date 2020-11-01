@@ -4,7 +4,7 @@ A article preview component for a [Frontend Mentor challenge](https://www.fronte
 
 Made with PUG, Sass, Bootstrap and JS.
 
-[Preview Site](https://jonathan-cantor.github.io/Article-preview-component/)
+[Preview Site](https://jonatcantor.github.io/Article-preview-component/)
 
 ## Installation
 
