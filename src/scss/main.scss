@@ -27,6 +27,10 @@ small{
   font-size: 0.9rem;
 }
 
+.main {
+  max-width: 768px;
+}
+
 .article-title{
   font-weight: 700;
   color: $title-color;
