@@ -1,10 +1,10 @@
 # Article preview component
 
-A article preview component for a Frontend Mentor challenge.
+A article preview component for a [Frontend Mentor challenge](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT).
 
 Made with PUG, Sass, Bootstrap and JS.
 
-[Preview Site](https://jonathan-cantor.github.io/Article-preview-component/)
+[Preview Site](https://jonatcantor.github.io/Article-preview-component/)
 
 ## Installation
 
